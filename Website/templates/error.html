@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - Page Not Found</title>
+    <style>
+         body {
+            background-color: #004577; /* Vibrant blue background */
+            color: #ffc400; /* White text color */
+            padding-top: 50px; /* Add padding to the top of the body to accommodate fixed navbar */
+            display: flex; /* Use flexbox layout */
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            flex-direction: column; /* Align content in a column */
+            height: 100vh; /* Set height of body to full viewport height */
+        }
+
+        h1, p {
+            text-align: center; /* Center text horizontally */
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px; /* Add some space below the paragraph */
+        }
+
+        .btn-container {
+            text-align: center; /* Center the button horizontally */
+        }
+
+        .btn {
+            background-color: #ffc400; /* Yellow button color */
+            color: #004577; /* Blue text color */
+            padding: 10px 20px; /* Add padding to the button */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Add border radius */
+            text-decoration: none; /* Remove underline from anchor tag */
+        }
+
+        .btn:hover {
+            background-color: #ffa000; /* Darker yellow on hover */
+        }
+    </style>
+</head>
+<body>
+    <img src="static/404.png" alt="404 Error" style="width: 400px; margin-bottom: 20px;">
+    <div>
+        <h1>Error 404 - Page Not Found</h1>
+        <p>Oops, the page you are looking for does not exist.</p>
+        <div class="btn-container">
+            <a href="/" class="btn">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
